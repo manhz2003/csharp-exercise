@@ -1,0 +1,15 @@
+E:\csharp\csharp-exercise\lab1\baiTap4\bin\Debug\net6.0\baiTap4.exe
+E:\csharp\csharp-exercise\lab1\baiTap4\bin\Debug\net6.0\baiTap4.deps.json
+E:\csharp\csharp-exercise\lab1\baiTap4\bin\Debug\net6.0\baiTap4.runtimeconfig.json
+E:\csharp\csharp-exercise\lab1\baiTap4\bin\Debug\net6.0\baiTap4.dll
+E:\csharp\csharp-exercise\lab1\baiTap4\bin\Debug\net6.0\baiTap4.pdb
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\baiTap4.csproj.AssemblyReference.cache
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\baiTap4.GeneratedMSBuildEditorConfig.editorconfig
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\baiTap4.AssemblyInfoInputs.cache
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\baiTap4.AssemblyInfo.cs
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\baiTap4.csproj.CoreCompileInputs.cache
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\baiTap4.dll
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\refint\baiTap4.dll
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\baiTap4.pdb
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\baiTap4.genruntimeconfig.cache
+E:\csharp\csharp-exercise\lab1\baiTap4\obj\Debug\net6.0\ref\baiTap4.dll
