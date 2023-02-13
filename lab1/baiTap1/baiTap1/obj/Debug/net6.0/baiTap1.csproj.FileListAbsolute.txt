@@ -1,0 +1,30 @@
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.exe
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.deps.json
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.runtimeconfig.json
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.dll
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.pdb
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.csproj.AssemblyReference.cache
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.GeneratedMSBuildEditorConfig.editorconfig
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.AssemblyInfoInputs.cache
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.AssemblyInfo.cs
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.dll
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\refint\baiTap1.dll
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.pdb
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.genruntimeconfig.cache
+E:\LẬP TRÌNH\CSHARP\New folder\baiTap1\baiTap1\obj\Debug\net6.0\ref\baiTap1.dll
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.exe
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.deps.json
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.runtimeconfig.json
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.dll
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\bin\Debug\net6.0\baiTap1.pdb
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.csproj.AssemblyReference.cache
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.GeneratedMSBuildEditorConfig.editorconfig
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.AssemblyInfoInputs.cache
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.AssemblyInfo.cs
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.dll
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\refint\baiTap1.dll
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.pdb
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\baiTap1.genruntimeconfig.cache
+E:\LẬP TRÌNH\CSHARP\lab1\baiTap1\baiTap1\obj\Debug\net6.0\ref\baiTap1.dll
