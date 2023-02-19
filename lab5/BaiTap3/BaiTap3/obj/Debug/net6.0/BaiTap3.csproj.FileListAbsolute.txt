@@ -1,0 +1,15 @@
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\bin\Debug\net6.0\BaiTap3.exe
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\bin\Debug\net6.0\BaiTap3.deps.json
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\bin\Debug\net6.0\BaiTap3.runtimeconfig.json
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\bin\Debug\net6.0\BaiTap3.dll
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\bin\Debug\net6.0\BaiTap3.pdb
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\BaiTap3.csproj.AssemblyReference.cache
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\BaiTap3.GeneratedMSBuildEditorConfig.editorconfig
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\BaiTap3.AssemblyInfoInputs.cache
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\BaiTap3.AssemblyInfo.cs
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\BaiTap3.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\BaiTap3.dll
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\refint\BaiTap3.dll
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\BaiTap3.pdb
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\BaiTap3.genruntimeconfig.cache
+E:\LẬP TRÌNH\CSHARP\lab5\BaiTap3\BaiTap3\obj\Debug\net6.0\ref\BaiTap3.dll
