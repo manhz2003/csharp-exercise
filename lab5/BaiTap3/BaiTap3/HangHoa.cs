@@ -27,6 +27,7 @@ namespace BaiTap3
             this.DonGia = DonGia;
         }
 
+        // tạo hàm nhập
         public void NhapHangHoa()
         {
             Console.Write("Nhập vào mã hàng: ");
@@ -39,5 +40,7 @@ namespace BaiTap3
             DonGia = double.Parse(Console.ReadLine());
         }
 
+        
+                                
     }
 }
