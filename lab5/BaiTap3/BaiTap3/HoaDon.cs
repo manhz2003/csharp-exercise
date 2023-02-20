@@ -11,72 +11,82 @@ namespace BaiTap3
         private KhachHang KhachHang;
         private List<HangHoa> HangHoaList = new List<HangHoa>();
 
+        // tạo đối tượng hàng hóa
+        HangHoa hh = new HangHoa();
+
         // tạo getter và setter cho khách hàng
-        public KhachHang khachHang{
-            get { return khachHang; }
-            set { khachHang = value; }
-}       
-        // tạo getter và setter cho hóa đơn
+        public KhachHang khachHang{ get { return khachHang; } set { khachHang = value; } }       
+        
         public List <HoaDon> hoaDonList 
         { 
             get { return hoaDonList; } 
             set { hoaDonList = value; } 
-        }  
-
-        // tạo contructor cho class hóa đơn
-
-        // contructor rỗng
-        public HoaDon() { }
-
-        // contructor truyền các tham số cần nhập vào
-        public HoaDon(KhachHang KhachHang)
-        {
-            this.KhachHang = KhachHang;
-            HangHoaList = new List<HangHoa>();
         }
-
-        // tạo hàm nhập nhiều lần
-        public void NhapHangHoaN()
+        
+        // tạo hàm thêm đối tượng
+        public void ThemHangHoaN()
         {
             Console.Write("Nhập vào số lượng hàng hóa cần thêm: ");
             int z = int.Parse(Console.ReadLine());
             for (int i = 0; i < z; i++)
             {
-                HangHoa hh = new HangHoa();
+                
                 hh.NhapHangHoa();
                 HangHoaList.Add(hh);
+                Console.WriteLine("Bạn đã thêm hàng hóa vào danh sách");
             }
         }
 
-        public void ThemHangHoa(HangHoa HangHoa)
+        public void XoaHangHoa()
         {
-           
-            HangHoaList.Add(HangHoa);
-            Console.WriteLine("Bạn đã thêm vào danh sách");
-        }
-
-        public void XoaHangHoa (HangHoa HangHoa)
-        {
-            HangHoaList.Remove(HangHoa);
-            Console.WriteLine("Bạn đã xóa danh sách hàng hóa thành công !");
+            if (HangHoaList.Contains(hh))
+            {
+                HangHoaList.Remove(hh);
+                Console.WriteLine("Bạn đã xóa danh sách hàng hóa thành công !");
+            }
+            else
+            {
+                Console.WriteLine("Không tìm thấy hàng hóa cần xóa trong danh sách !");
+            }
         }
 
         public void ThongTinHangHoa()
         {
-            Console.WriteLine("danh sách hàng hóa: ");
+            if (HangHoaList.Count == 0)
+            {
+                Console.WriteLine("Danh sách hàng hóa hiện tại đang rỗng!");
+                return;
+            }
+
+            Console.WriteLine("Danh sách hàng hóa: ");
             foreach (HangHoa h in HangHoaList)
             {
-                if (h != null) // chỉ in ra các giá trị hàng hóa khác null
-                {
-                    Console.WriteLine($"Ma hang: {h.maHang}, Ten hang: {h.tenHang}, Don gia: {h.donGia}");
-                }
+                Console.WriteLine($"Mã hàng: {h.maHang}, Tên hàng: {h.tenHang}, giá hàng: {h.donGia}");
             }
         }
 
-        
+        public void TimHangHoaGiaCaoNhat()
+        {
+            if (HangHoaList.Count == 0)
+            {
+                Console.WriteLine("Danh sách hàng hóa rỗng, bạn cần nhập thông tin trước !");
+                return;
+            }
 
-       
+            HangHoa maxGiaHangHoa = HangHoaList[0];
+            foreach (HangHoa h in HangHoaList)
+            {
+                if (h.donGia > maxGiaHangHoa.donGia)
+                {
+                    maxGiaHangHoa = h;
+                }
+            }
+
+            Console.WriteLine("Hàng hóa có giá cao nhất là:");
+            Console.WriteLine("Mã hàng: {0}, Tên hàng: {1}, Đơn giá: {2}", maxGiaHangHoa.maHang, maxGiaHangHoa.tenHang, maxGiaHangHoa.donGia);
         }
 
+
+    }
     }
 
