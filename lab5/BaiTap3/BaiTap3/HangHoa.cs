@@ -12,22 +12,13 @@ namespace BaiTap3
         private string TenHang;
         private double DonGia;
 
-       public string maHang {set { MaHang = value; } get { return MaHang; }}
+        public string maHang {set { MaHang = value; } get { return MaHang; }}
 
         public string tenHang {set { TenHang = value; } get { return TenHang; } }
 
         public double donGia { set { DonGia = value;} get { return DonGia; } }
 
-        public HangHoa() { }
-
-        public HangHoa (string MaHang, string TenHang, double DonGia)
-        {
-            this.MaHang = MaHang;
-            this.TenHang = TenHang;
-            this.DonGia = DonGia;
-        }
-
-        // tạo hàm nhập
+        // tạo hàm nhập 1 lần
         public void NhapHangHoa()
         {
             Console.Write("Nhập vào mã hàng: ");
@@ -40,7 +31,5 @@ namespace BaiTap3
             DonGia = double.Parse(Console.ReadLine());
         }
 
-        
-                                
     }
 }

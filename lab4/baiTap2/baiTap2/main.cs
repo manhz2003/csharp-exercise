@@ -4,29 +4,13 @@
     {
         static void Main(string[] args)
         {
-            SV1 sv1 = new SV1
-            {
-                HoTen = "Nguyễn Thế Mạnh",
-                CMND = "123456789",
-                QueQuan = "Hà Nội",
-                GhiChu = "Đang là sinh viên",
-                MaSinhVien = "SV001"
-            };
+           SV1 sv1 = new SV1 ("20210719", "Nguyễn Thế Mạnh", "947324347989", "Hà Nội", "Backend java developer");           
+           Console.WriteLine(sv1.ToString());
 
-            Console.WriteLine(sv1);
-
-            SV2 sv2 = new SV2
-            {
-                HoTen = "Lương Thị Lan Anh",
-                CMND = "987654321",
-                QueQuan = "Hồ Chí Minh",
-                GhiChu = "Đang là sinh viên",
-                MaSinhVien = "SV002",
-                ThongTinCaNhan = "Ngành CNTT"
-            };
-
-            Console.WriteLine(sv2);
-            Console.ReadKey();
+           Person p2 = new Person("Tuyên Quang", "Lương Thị Lan Anh", "73204832423", "Backend java developer");
+           SV2 sv2 = new SV2("20210997", p2);
+           Console.WriteLine(sv2.ToString());
+           Console.ReadKey();
         }
     }
 }

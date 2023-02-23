@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\csharp\\csharp-exercise\\lab1\\New folder\\baiTap1\\baiTap4\\baiTap4.csproj",
+      "projectUniqueName": "E:\\csharp\\csharp-exercise\\lab1\\baiTap4\\baiTap4.csproj",
       "projectName": "baiTap4",
-      "projectPath": "E:\\csharp\\csharp-exercise\\lab1\\New folder\\baiTap1\\baiTap4\\baiTap4.csproj",
+      "projectPath": "E:\\csharp\\csharp-exercise\\lab1\\baiTap4\\baiTap4.csproj",
       "packagesPath": "C:\\Users\\manht\\.nuget\\packages\\",
-      "outputPath": "E:\\csharp\\csharp-exercise\\lab1\\New folder\\baiTap1\\baiTap4\\obj\\",
+      "outputPath": "E:\\csharp\\csharp-exercise\\lab1\\baiTap4\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\manht\\AppData\\Roaming\\NuGet\\NuGet.Config",

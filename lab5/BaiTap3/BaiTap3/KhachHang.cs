@@ -15,24 +15,6 @@ namespace BaiTap3
         public string maKhach{ get { return MaKhach; } set { MaKhach = value; }}
         public string tenKhach { get { return Tenkhach; } set { Tenkhach = value; }}
         public string diaChi { get { return DiaChi; } set { DiaChi = value; }}
-        
-        public KhachHang() { }
 
-        public KhachHang(string MaKhach, string TenKhach, string DiaChi)
-        {
-            this.MaKhach = MaKhach;
-            this.Tenkhach = TenKhach;
-            this.DiaChi = DiaChi;
-        }
-
-        public void NhapKhachHang()
-        {
-            Console.Write("Nhập vào mã khách hàng: ");
-            MaKhach = Console.ReadLine();
-            Console.Write("Nhập vào tên khách hàng: ");
-            tenKhach = Console.ReadLine();
-            Console.Write("Nhập vào mã khách hàng: ");
-            diaChi = Console.ReadLine();
-        }
     }
 }
