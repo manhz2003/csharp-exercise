@@ -9,30 +9,44 @@ namespace lab3
     internal class So
     {
         private int a;
+        private int b;
 
-        public So(int a)
+        public int A { get { return a; } set { a = value; } }
+        public int B { get { return b; } set { b = value; } }
+
+        public void Cong ()
         {
-            this.a = a;
+            int c = a + b;
+            Console.WriteLine($"{a} + {b} = {c}");
         }
 
-        public int Cong(So so)
+        public void Tru()
         {
-            return this.a + so.a;
+            int c = a - b;
+            Console.WriteLine($"{a} - {b} = {c}");
         }
 
-        public int Tru(So so)
+        public void Nhan()
         {
-            return this.a - so.a;
+            int c = a * b;
+            Console.WriteLine($"{a} x {b} = {c}");
         }
 
-        public int Nhan(So so)
-        {
-            return this.a * so.a;
+        public void Chia()
+        {   
+                       
+            int c = a / b;
+            Console.WriteLine($"{a} / {b} = {c}");
+
         }
 
-        public int Chia(So so)
+        public void nhap ()
         {
-            return this.a / so.a;
+            Console.Write("Nhập vào a: ");
+            a = int.Parse(Console.ReadLine());
+            Console.Write("Nhập vào b: ");
+            b = int.Parse(Console.ReadLine());
         }
+
     }
 }

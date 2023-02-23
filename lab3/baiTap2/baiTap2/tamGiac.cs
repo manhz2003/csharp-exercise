@@ -8,35 +8,44 @@ namespace baiTap2
 {
     internal class tamGiac
     {
-        public double CanhA { get; set; }
-        public double CanhB { get; set; }
-        public double CanhC { get; set; }
+        private double a;
+        private double b;
+        private double c;
 
-        public tamGiac(double a, double b, double c)
+        public double A { get { return a; } set { a = value; } }
+        public double B { get { return b; } set { b = value; } }
+        public double C { get { return c; } set { c = value; } }
+
+        public double ChuViTamGiac()
         {
-            CanhA = a;
-            CanhB = b;
-            CanhC = c;
+            return a + b+ c;
+            
         }
 
-        public double TinhChuVi()
+        public double DienTichTamGiac ()
         {
-            return CanhA + CanhB + CanhC;
+            double p = ChuViTamGiac() / 2;
+            return  Math.Sqrt((p - a) * (p-b) *(p-c));
         }
 
-        public double TinhDienTich()
-        {
-            double p = TinhChuVi() / 2;
-            return Math.Sqrt(p * (p - CanhA) * (p - CanhB) * (p - CanhC));
-        }
 
         public bool KiemTraTamGiac()
         {
-            if (CanhA + CanhB > CanhC && CanhA + CanhC > CanhB && CanhB + CanhC > CanhA)
+            if (a + b > c && a + c > b && b + c > a)
             {
                 return true;
             }
             return false;
+        }
+
+        public void Nhap()
+        {
+            Console.Write("Nhập vào cạnh a: ");
+            a = double.Parse(Console.ReadLine());
+            Console.Write("Nhập vào cạnh b: ");
+            b = double.Parse(Console.ReadLine());
+            Console.Write("Nhập vào cạnh c: ");
+            c = double.Parse(Console.ReadLine());
         }
     }
 }

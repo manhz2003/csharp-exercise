@@ -8,22 +8,25 @@ namespace baiTap3
 {
     internal class sinhVien
     {
-        public string tenSV;
-        public int tuoiSV;
-        public float diemSV;
+        private string tenSV;
+        private int tuoiSV;
+        private float diemSV;
 
-        public sinhVien(string ten, int tuoi, float diem)
+        public string tensv { get; set; }
+        public int tuoisv { get; set; }
+        public string diemsv { get; set; }
+
+        public sinhVien(string tenSV, int tuoiSV, float diemSV)
         {
-            tenSV = ten;
-            tuoiSV = tuoi;
-            diemSV = diem;
+            this.tenSV = tenSV;
+            this.tuoiSV = tuoiSV;
+            this.diemSV = diemSV;
         }
 
         public void HienThi()
         {
-            Console.WriteLine("Tên sinh viên: " + tenSV);
-            Console.WriteLine("Tuổi sinh viên: " + tuoiSV);
-            Console.WriteLine("Điểm sinh viên: " + diemSV);
+            Console.WriteLine("{0,-15} {1,-10} {2,-10}", "Tên", "Tuổi", "Điểm");           
+            Console.WriteLine("{0,-15} {1,-10} {2,-10:N1}", tenSV, tuoiSV, diemSV);
         }
     }
 }
