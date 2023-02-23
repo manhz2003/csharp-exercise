@@ -8,7 +8,9 @@ namespace baiTap4
 {
     internal class Diem
     {
-        public int x, y;
+        private int x, y;
+        public int X { get { return x; }  set { x = value; } }
+        public int Y { get { return y; } set { y = value; } } 
 
         public Diem(int x, int y)
         {

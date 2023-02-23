@@ -9,7 +9,7 @@
 
             double khoangCach = diemA.TinhKhoangCach(diemB);
             Console.WriteLine("Khoảng cách giữa hai điểm là: " + khoangCach);
-            Console.ReadLine();
+            Console.ReadKey();
         }
     }
 }

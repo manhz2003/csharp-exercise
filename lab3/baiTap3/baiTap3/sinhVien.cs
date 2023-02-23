@@ -25,8 +25,12 @@ namespace baiTap3
 
         public void HienThi()
         {
-            Console.WriteLine("{0,-15} {1,-10} {2,-10}", "Tên", "Tuổi", "Điểm");           
-            Console.WriteLine("{0,-15} {1,-10} {2,-10:N1}", tenSV, tuoiSV, diemSV);
+            Console.WriteLine("+---------------------------------------+");
+            Console.WriteLine("|{0,-15} |{1,-10} |{2,-10}|", "Họ và tên", "Tuổi", "Điểm");
+            Console.WriteLine("|---------------------------------------|");
+            Console.WriteLine("|{0,-15} |{1,-10} |{2,-10:N1}|", tenSV, tuoiSV, diemSV);
+            Console.WriteLine("+---------------------------------------+");
+
         }
     }
 }
