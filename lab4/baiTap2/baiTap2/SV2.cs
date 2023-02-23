@@ -6,14 +6,24 @@ using System.Threading.Tasks;
 
 namespace baiTap2
 {
-    internal class SV2 : Person
+    internal class SV2
     {
-        public string MaSinhVien { get; set; }
-        public string ThongTinCaNhan { get; set; }
+        private string MaSinhVien;
+        public string maSinhVien { get { return MaSinhVien; } set { maSinhVien = value; } }
+
+        private Person Person;
+        public Person person { get { return Person; } set { Person = value; } }
+
+        public SV2 (string MaSinhVien, Person Person)
+        {
+            this.MaSinhVien= MaSinhVien;
+            this.Person = Person;
+        }
 
         public override string ToString()
         {
-            return base.ToString() + $"\nMã sinh viên: {MaSinhVien}\nThông tin cá nhân: {ThongTinCaNhan}";
+            return $"Mã sinh viên: {MaSinhVien} \n" + person.ToString();
         }
+
     }
 }
