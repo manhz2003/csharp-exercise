@@ -1,0 +1,12 @@
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\bin\Debug\BaiTap1.exe.config
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\bin\Debug\BaiTap1.exe
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\bin\Debug\BaiTap1.pdb
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.csproj.AssemblyReference.cache
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.csproj.SuggestedBindingRedirects.cache
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.Form1.resources
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.Form2.resources
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.Properties.Resources.resources
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.csproj.GenerateResource.cache
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.exe
+E:\LẬP TRÌNH\CSHARP\lab6\BaiTap1\BaiTap1\obj\Debug\BaiTap1.pdb
