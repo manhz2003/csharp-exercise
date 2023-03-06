@@ -41,6 +41,7 @@ namespace BaiTap1
             else if(radTru.Checked)
             {
                 psKQ = psA - psB;
+                psKQ.RutGon();
             }
             else if(radnhan.Checked)
             {
@@ -75,7 +76,7 @@ namespace BaiTap1
             txtBts.Text = string.Empty;
             txtBms.Text = string.Empty;
 
-            foreach (Control ctrl in this.Controls)
+            foreach (Control ctrl in Controls)
             {
                 // Kiểm tra xem control đó có phải là radiobutton không
                 if (ctrl is RadioButton)
@@ -85,6 +86,5 @@ namespace BaiTap1
                 }
             }
         }
-
     }
 }

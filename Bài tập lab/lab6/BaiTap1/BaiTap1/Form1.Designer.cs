@@ -47,7 +47,7 @@
             this.lbNhapA.AutoSize = true;
             this.lbNhapA.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNhapA.ForeColor = System.Drawing.Color.White;
-            this.lbNhapA.Location = new System.Drawing.Point(251, 51);
+            this.lbNhapA.Location = new System.Drawing.Point(257, 70);
             this.lbNhapA.Name = "lbNhapA";
             this.lbNhapA.Size = new System.Drawing.Size(116, 16);
             this.lbNhapA.TabIndex = 0;
@@ -58,7 +58,7 @@
             this.lbNhapB.AutoSize = true;
             this.lbNhapB.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbNhapB.ForeColor = System.Drawing.Color.White;
-            this.lbNhapB.Location = new System.Drawing.Point(251, 152);
+            this.lbNhapB.Location = new System.Drawing.Point(257, 171);
             this.lbNhapB.Name = "lbNhapB";
             this.lbNhapB.Size = new System.Drawing.Size(116, 16);
             this.lbNhapB.TabIndex = 1;
@@ -69,7 +69,7 @@
             this.btnTinh.BackColor = System.Drawing.Color.OliveDrab;
             this.btnTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTinh.ForeColor = System.Drawing.Color.GhostWhite;
-            this.btnTinh.Location = new System.Drawing.Point(328, 298);
+            this.btnTinh.Location = new System.Drawing.Point(331, 324);
             this.btnTinh.Name = "btnTinh";
             this.btnTinh.Size = new System.Drawing.Size(62, 39);
             this.btnTinh.TabIndex = 9;
@@ -82,7 +82,7 @@
             this.btnXoa.BackColor = System.Drawing.Color.Tomato;
             this.btnXoa.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoa.ForeColor = System.Drawing.Color.GhostWhite;
-            this.btnXoa.Location = new System.Drawing.Point(403, 298);
+            this.btnXoa.Location = new System.Drawing.Point(413, 324);
             this.btnXoa.Name = "btnXoa";
             this.btnXoa.Size = new System.Drawing.Size(62, 39);
             this.btnXoa.TabIndex = 10;
@@ -95,7 +95,7 @@
             this.txtAts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtAts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAts.ForeColor = System.Drawing.Color.White;
-            this.txtAts.Location = new System.Drawing.Point(254, 86);
+            this.txtAts.Location = new System.Drawing.Point(260, 105);
             this.txtAts.Multiline = true;
             this.txtAts.Name = "txtAts";
             this.txtAts.Size = new System.Drawing.Size(133, 34);
@@ -106,7 +106,7 @@
             this.txtBts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtBts.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBts.ForeColor = System.Drawing.Color.White;
-            this.txtBts.Location = new System.Drawing.Point(254, 185);
+            this.txtBts.Location = new System.Drawing.Point(260, 204);
             this.txtBts.Multiline = true;
             this.txtBts.Name = "txtBts";
             this.txtBts.Size = new System.Drawing.Size(133, 34);
@@ -117,7 +117,7 @@
             this.txtBms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtBms.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtBms.ForeColor = System.Drawing.Color.White;
-            this.txtBms.Location = new System.Drawing.Point(407, 185);
+            this.txtBms.Location = new System.Drawing.Point(413, 204);
             this.txtBms.Multiline = true;
             this.txtBms.Name = "txtBms";
             this.txtBms.Size = new System.Drawing.Size(133, 34);
@@ -128,7 +128,7 @@
             this.txtAms.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.txtAms.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAms.ForeColor = System.Drawing.Color.White;
-            this.txtAms.Location = new System.Drawing.Point(407, 86);
+            this.txtAms.Location = new System.Drawing.Point(413, 105);
             this.txtAms.Multiline = true;
             this.txtAms.Name = "txtAms";
             this.txtAms.Size = new System.Drawing.Size(133, 34);
@@ -139,7 +139,7 @@
             this.radCong.AutoSize = true;
             this.radCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radCong.ForeColor = System.Drawing.Color.White;
-            this.radCong.Location = new System.Drawing.Point(263, 304);
+            this.radCong.Location = new System.Drawing.Point(260, 265);
             this.radCong.Name = "radCong";
             this.radCong.Size = new System.Drawing.Size(41, 24);
             this.radCong.TabIndex = 8;
@@ -152,7 +152,7 @@
             this.radTru.AutoSize = true;
             this.radTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radTru.ForeColor = System.Drawing.Color.White;
-            this.radTru.Location = new System.Drawing.Point(376, 247);
+            this.radTru.Location = new System.Drawing.Point(346, 265);
             this.radTru.Name = "radTru";
             this.radTru.Size = new System.Drawing.Size(37, 24);
             this.radTru.TabIndex = 5;
@@ -165,7 +165,7 @@
             this.radnhan.AutoSize = true;
             this.radnhan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radnhan.ForeColor = System.Drawing.Color.White;
-            this.radnhan.Location = new System.Drawing.Point(499, 304);
+            this.radnhan.Location = new System.Drawing.Point(423, 265);
             this.radnhan.Name = "radnhan";
             this.radnhan.Size = new System.Drawing.Size(41, 24);
             this.radnhan.TabIndex = 6;
@@ -178,7 +178,7 @@
             this.radChia.AutoSize = true;
             this.radChia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radChia.ForeColor = System.Drawing.Color.White;
-            this.radChia.Location = new System.Drawing.Point(376, 373);
+            this.radChia.Location = new System.Drawing.Point(505, 265);
             this.radChia.Name = "radChia";
             this.radChia.Size = new System.Drawing.Size(41, 24);
             this.radChia.TabIndex = 7;

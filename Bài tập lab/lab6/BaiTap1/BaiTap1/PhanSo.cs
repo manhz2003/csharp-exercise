@@ -22,6 +22,7 @@ namespace BaiTap1
 
         public PhanSo() { }
 
+
         public static PhanSo operator +(PhanSo a, PhanSo b)
         {
             PhanSo c = new PhanSo();

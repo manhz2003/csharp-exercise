@@ -9,3 +9,4 @@ E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab6\Baitap2\Baitap2\obj\Debug\Baitap2.csp
 E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab6\Baitap2\Baitap2\obj\Debug\Baitap2.csproj.CoreCompileInputs.cache
 E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab6\Baitap2\Baitap2\obj\Debug\Baitap2.exe
 E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab6\Baitap2\Baitap2\obj\Debug\Baitap2.pdb
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab6\Baitap2\Baitap2\obj\Debug\Baitap2.Form2.resources

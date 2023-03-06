@@ -54,10 +54,19 @@ namespace BaiTap1
             return c;
         }
 
+        public void Nhap()
+        {
+            Console.Write("Mời nhập tử số: ");
+            TuSo = int.Parse(Console.ReadLine());
+
+            Console.Write("Mời nhập mẫu số: ");
+            MauSo = int.Parse(Console.ReadLine());
+        }
+
         public override string ToString()
         {
             return $"{TuSo}/{MauSo}";
-        }
+        }        
 
     }
 }

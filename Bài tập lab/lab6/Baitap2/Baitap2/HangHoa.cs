@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Baitap2
 {
-    internal class HangHoa
+    public class HangHoa
     {
         private string TenHang;
         private string MaHang;
