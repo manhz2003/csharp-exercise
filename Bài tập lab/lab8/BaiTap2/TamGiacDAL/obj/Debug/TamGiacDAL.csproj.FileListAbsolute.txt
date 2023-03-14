@@ -1,0 +1,6 @@
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap2\TamGiacDAL\bin\Debug\TamGiacDAL.dll
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap2\TamGiacDAL\bin\Debug\TamGiacDAL.pdb
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap2\TamGiacDAL\obj\Debug\TamGiacDAL.csproj.AssemblyReference.cache
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap2\TamGiacDAL\obj\Debug\TamGiacDAL.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap2\TamGiacDAL\obj\Debug\TamGiacDAL.dll
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap2\TamGiacDAL\obj\Debug\TamGiacDAL.pdb

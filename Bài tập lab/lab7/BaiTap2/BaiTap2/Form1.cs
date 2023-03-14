@@ -16,11 +16,12 @@ namespace BaiTap2
     {
 
         List<SinhVien> danhSachSinhVien = new List<SinhVien>();
+
+        // lớp BindingSource giúp đổ dữ liệu từ các control vào gridview hoặc liên kết dữ liệu các control với nhau
         BindingSource bindingSource = new BindingSource();
         public Form1()
         {
             InitializeComponent();
-            dataGridView1.AutoGenerateColumns = true;
         }
 
         private void btnNhap_Click(object sender, EventArgs e)
@@ -53,16 +54,14 @@ namespace BaiTap2
                 return;
             }
 
-            SinhVien sinhVien = new SinhVien();
-            sinhVien.masv = MaSV;
-            sinhVien.hoten = HoTen;
-            sinhVien.tuoi = Tuoi;
-            sinhVien.ngaysinh = NgaySinh;
-            sinhVien.diachi = DiaChi;
-
+            SinhVien sinhVien = new SinhVien(MaSV, HoTen, Tuoi, NgaySinh, DiaChi);           
             danhSachSinhVien.Add(sinhVien);
+
+            // DataSource dùng để gán nguồn dữ liệu cho control
             bindingSource.DataSource = danhSachSinhVien;
             dataGridView1.DataSource = bindingSource;
+
+            // cập nhật lại tất cả các giá trị được liên kết đến đối tượng bindingSource
             bindingSource.ResetBindings(false);
 
             dataGridView1.Columns[0].Width = 140;
@@ -75,7 +74,7 @@ namespace BaiTap2
             dataGridView1.Columns[1].HeaderText = "Họ và tên";
             dataGridView1.Columns[2].HeaderText = "Tuổi";
             dataGridView1.Columns[3].HeaderText = "Ngày sinh";
-            dataGridView1.Columns[4].HeaderText = "Địa chỉ";         
+            dataGridView1.Columns[4].HeaderText = "Địa chỉ";
         }      
 
         private void btnXoa_Click(object sender, EventArgs e)
@@ -100,5 +99,6 @@ namespace BaiTap2
                 Application.Exit();
             }
         }
+
     }
 }

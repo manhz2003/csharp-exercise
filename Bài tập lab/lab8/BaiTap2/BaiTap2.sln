@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamGiacGUI", "BaiTap2\TamGiacGUI.csproj", "{07C45BCE-9A8D-4DCC-A862-B415E0C74BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamGiacDAL", "TamGiacDAL\TamGiacDAL.csproj", "{616916F7-F31E-4EDE-B868-DF8890930DEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TamGiacBUS", "TamGiacBUS\TamGiacBUS.csproj", "{338B3FB3-9CB1-40B2-AFFF-CFC1CD021FE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07C45BCE-9A8D-4DCC-A862-B415E0C74BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07C45BCE-9A8D-4DCC-A862-B415E0C74BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07C45BCE-9A8D-4DCC-A862-B415E0C74BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07C45BCE-9A8D-4DCC-A862-B415E0C74BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{616916F7-F31E-4EDE-B868-DF8890930DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{616916F7-F31E-4EDE-B868-DF8890930DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{616916F7-F31E-4EDE-B868-DF8890930DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{616916F7-F31E-4EDE-B868-DF8890930DEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{338B3FB3-9CB1-40B2-AFFF-CFC1CD021FE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{338B3FB3-9CB1-40B2-AFFF-CFC1CD021FE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{338B3FB3-9CB1-40B2-AFFF-CFC1CD021FE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{338B3FB3-9CB1-40B2-AFFF-CFC1CD021FE4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51AB34B6-EAC4-4A75-9D14-F98FE0C51629}
+	EndGlobalSection
+EndGlobal

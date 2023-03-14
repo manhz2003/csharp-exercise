@@ -31,10 +31,5 @@ namespace BaiTap1
             this.DiaChi = DiaChi;
         }
 
-        public override string ToString()
-        {
-            return $"{MaSV} \n{HoTen} \n{Tuoi} \n {NgaySinh} \n {DiaChi}";
-        }
-
     }
 }

@@ -1,0 +1,6 @@
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap1\TongHaiSoDAL\bin\Debug\TongHaiSoDAL.dll
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap1\TongHaiSoDAL\bin\Debug\TongHaiSoDAL.pdb
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap1\TongHaiSoDAL\obj\Debug\TongHaiSoDAL.csproj.AssemblyReference.cache
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap1\TongHaiSoDAL\obj\Debug\TongHaiSoDAL.csproj.CoreCompileInputs.cache
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap1\TongHaiSoDAL\obj\Debug\TongHaiSoDAL.dll
+E:\LẬP TRÌNH\CSHARP\Bài tập lab\lab8\BaiTap1\TongHaiSoDAL\obj\Debug\TongHaiSoDAL.pdb

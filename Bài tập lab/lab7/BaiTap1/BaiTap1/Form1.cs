@@ -48,18 +48,11 @@ namespace BaiTap1
                 MessageBox.Show("Nhập tuổi không hợp lệ !");
                 return;
             }
-
-            if (string.IsNullOrEmpty(txtTuoi.Text))
-            {
-                MessageBox.Show("Bạn chưa điền đủ thông tin !");
-                return;
-            }
+            
 
             SinhVien sv = new SinhVien(MaSV, HoTen, Tuoi, NgaySinh, DiaChi);
             danhSachSinhVien.Add(sv);
-
-            // Cập nhật giao diện hiển thị danh sách sinh viên
-            listView1.Items.Clear();
+            
             foreach (SinhVien item in danhSachSinhVien)
             {
                 ListViewItem lvItem = new ListViewItem(item.masv);
@@ -99,7 +92,7 @@ namespace BaiTap1
             DialogResult result = MessageBox.Show("Bạn có chắc chắn muốn thoát không ?", "Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
             if (result == DialogResult.Yes)
             {
-                Application.Exit();
+                Application.Exit(); 
             }
         }
 
@@ -113,9 +106,10 @@ namespace BaiTap1
             DialogResult result = MessageBox.Show("Bạn có chắc chắn xóa danh sách không ?", "Thoát", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
             if (result == DialogResult.Yes)
             {
-                danhSachSinhVien.Clear();
                 listView1.Items.Clear();
             }
         }
+
+
     }
 }
